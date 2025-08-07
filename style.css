@@ -19,7 +19,7 @@ body {
 }
 
 .dark {
-    background-image: linear-gradient(#1d1160 , #D8BFD8 , #452c63);
+    background-image: linear-gradient(#1d1160, #D8BFD8, #452c63);
     color: white;
     background-repeat: no-repeat;
     height: 650px;
@@ -46,11 +46,10 @@ div#allbutton {
     padding: 10px;
     border-radius: 10px;
     border: none;
-    /* font-weight: 800; */
     color: black;
-    /* background-image: linear-gradient(pink, rgb(90, 25, 151)); */
     cursor: pointer;
     text-align: center;
+    font-size: 28px;
 }
 
 .button:hover {
@@ -69,5 +68,32 @@ input {
     width: 600px;
     height: 300px;
     text-align: center;
-    background:  ;
+    background: linear-gradient(rgb(154, 106, 177));
+    border: 2 px solid gray;
+    border-radius: 50px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fontweight {
+    font-weight: 900;
+}
+
+input#colorinput {
+    width: 100px;
+    height: 20px;
 }

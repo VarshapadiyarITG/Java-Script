@@ -15,20 +15,27 @@
 
 <body>
     <div class="mydiv">
-        <input type="text" id="myInput">
+        <input type="text" id="myInput" value="">
     </div>
     <p id="para"></p>
     <div id="allbutton">
         <button id="mode-toggle">🌙</button>
+        <button onclick="overWrite()" class="button printbtn">PRINT</button>
         <button id="uppreCaseBtn" class="button">UPPER-CASE</button>
         <button id="lowercasebtn" class="button">LOWER-CASE</button>
         <button id="boldbtn" class="button">BOLD</button>
         <button id="italic" class="button">ITALIC</button>
         <button id="firstletter" class="button">FIRST LETTER CAPITAL</button>
+        <button oninput="changeColor()" class="button"> COLOR<input type="color" id="colorinput" value=""></button>
+
     </div>
 
 
     <script src="index.js"></script>
+
+
+
+
 
 </body>
 
